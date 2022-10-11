@@ -13,4 +13,27 @@
 h1, h2, h3, h4, h5, h6{
     font-weight: bold;
     text-transform: uppercase;
+    text-align: center;
+}
+.pregunta{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.respuesta{
+    text-transform: initial;
+}
+.cuestionario{
+    /*background-color: antiquewhite;*/
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.copyright{
+    padding: 5px;
+    text-align: center;
+    background-image: linear-gradient(to right, #1a659e, #004e89);
+    color: white;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(39, 76, 119, 0.2), 0 6px 20px 0 rgba(39, 76, 119, 0.19);
 }
