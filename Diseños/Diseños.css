@@ -15,14 +15,14 @@ h1, h2, h3, h4, h5, h6{
     text-transform: uppercase;
     text-align: center;
 }
-.pregunta{
+.pregunta, .título{
     font-weight: bold;
     text-transform: uppercase;
 }
-.respuesta{
+.respuesta, .desarrollo{
     text-transform: initial;
 }
-.cuestionario{
+.cuestionario, .seccion{
     /*background-color: antiquewhite;*/
     margin: 20px;
     padding: 20px;
@@ -36,4 +36,12 @@ h1, h2, h3, h4, h5, h6{
     color: white;
     margin: 5px;
     box-shadow: 0 4px 8px 0 rgba(39, 76, 119, 0.2), 0 6px 20px 0 rgba(39, 76, 119, 0.19);
+}
+
+/*LINKS*/
+a{
+    text-decoration: none;
+    color: #7209b7;
+    font: Montserrat;
+    /*font-weight: bold;*/
 }
