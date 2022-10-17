@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.topbar{
+    margin-left: -480px;
+    width: 180%;
+    /*width: 100%;*/
+    height: 5.5rem;
+}
+
+.container{
+    font-family: Montserrat;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.pregunta, .título{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.respuesta, .desarrollo{
+    text-transform: initial;
+}
+.cuestionario, .seccion{
+    /*background-color: antiquewhite;*/
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.copyright{
+    padding: 5px;
+    text-align: center;
+    background-image: linear-gradient(to right, #1a659e, #004e89);
+    color: white;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(39, 76, 119, 0.2), 0 6px 20px 0 rgba(39, 76, 119, 0.19);
+}
+
+/*LINKS*/
+a{
+    text-decoration: none;
+    color: #7209b7;
+    font: Montserrat;
+    /*font-weight: bold;*/
+}
